@@ -1,0 +1,11 @@
+@use "../../foundation/variables";
+
+
+
+.c-title {
+    color: variables.$color-gray;
+    padding-top: 43px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 40px;
+}

@@ -1,0 +1,31 @@
+@use "../../foundation/variables";
+
+.c-search-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.c-search-btn {
+    background: linear-gradient(to left, #F2EDE9, #DED8D3);
+    color: variables.$color-gray;
+    font-size: 16px;
+    border: 1px variables.$color-gray solid;
+    border-radius: 10px;
+    height: 46px;
+    width: 90px;
+    padding: 0;
+    margin: 0 0 0 12px;
+}
+
+.c-search-input {
+    border: 1px variables.$color-gray solid;
+    border-radius: 10px;
+    height: 46px;
+    width: 216px;
+    padding: 0;
+    margin: 0;
+    background: url(../../../img/パス\ 270.png)no-repeat 5px center;
+    background-color: variables.$color-white;
+}

@@ -1,16 +1,111 @@
+@charset "UTF-8";
+.font-mplus-400 {
+  font-family: "M PLUS 1p", sans-serif;
+  font-weight: 400;
+}
+
+.font-mplus-700 {
+  font-family: "M PLUS 1p", sans-serif;
+  font-weight: 700;
+}
+
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
 * {
+  margin: 0;
+}
+
+.l-header {
+  background-color: #FFF7EF;
+  height: 215px;
+  position: relative;
+}
+
+.c-title {
+  color: #707070;
+  padding-top: 43px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.c-menuBtn {
+  color: #707070;
+  font-size: 20px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  margin: 0;
+}
+
+.c-menuList {
+  display: none;
+}
+
+.c-search-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.c-search-btn {
+  background: linear-gradient(to left, #F2EDE9, #DED8D3);
+  color: #707070;
+  font-size: 16px;
+  border: 1px #707070 solid;
+  border-radius: 10px;
+  height: 46px;
+  width: 90px;
+  padding: 0;
+  margin: 0 0 0 12px;
+}
+
+.c-search-input {
+  border: 1px #707070 solid;
+  border-radius: 10px;
+  height: 46px;
+  width: 216px;
+  padding: 0;
+  margin: 0;
+  background: url(../../../img/パス\ 270.png) no-repeat 5px center;
+  background-color: #FFF;
+}
+
+.p-mainVisual {
+  position: relative;
+  z-index: 1;
+}
+
+.p-mainVisual-text {
+  position: absolute;
+  top: 122px;
+  left: 25px;
+  font-size: 36px;
+  color: #FFF;
+  position: absolute;
+  z-index: 2;
+}
+
+.p-mainCard {
   background-color: #FFF7EF;
 }
 
-.m-plus-1p-regular {
-  font-family: "M PLUS 1p", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+.p-front-TakeOut {
+  background: url(../../../img/TakeOut_back.png) no-repeat;
 }
 
-.m-plus-1p-bold {
-  font-family: "M PLUS 1p", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+.p-front-EatIn {
+  background: url(../../../img/EatIn_back.png) no-repeat;
+}
+
+.p-front-TakeOut-title {
+  font-size: 41px;
+}
+
+.p-front-EatIn-title {
+  font-size: 41px;
 }
 /*# sourceMappingURL=style.css.map */

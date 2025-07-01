@@ -1,0 +1,22 @@
+@use "../../foundation/variables";
+
+
+.p-mainCard {
+    background-color: variables.$color-beige;
+}
+
+.p-front-TakeOut {
+    background: url(../../../img/TakeOut_back.png) no-repeat;
+}
+
+.p-front-EatIn {
+    background: url(../../../img/EatIn_back.png) no-repeat;
+}
+
+.p-front-TakeOut-title {
+    font-size: 41px;
+}
+
+.p-front-EatIn-title {
+    font-size: 41px;
+}

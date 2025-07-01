@@ -1,0 +1,18 @@
+@use "../../foundation/variables";
+
+.p-mainVisual {
+    position: relative;
+    z-index: 1;
+}
+
+.p-mainVisual-text {
+    position: absolute;
+    top: 122px;
+    left: 25px;
+    font-size: 36px;
+    color: variables.$color-white;
+
+
+    position: absolute;
+    z-index: 2;
+}

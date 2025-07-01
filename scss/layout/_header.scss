@@ -1,0 +1,7 @@
+@use "../foundation/variables";
+
+.l-header {
+    background-color: variables.$color-beige;
+    height: 215px;
+    position: relative;
+}

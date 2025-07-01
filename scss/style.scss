@@ -1,11 +1,14 @@
 //===============================================
 //Foundation
 //===============================================
+@use "foundation/reset";
+@use "foundation/variables";
 @use "foundation/base";
 
 //===============================================
 //Layout
 //===============================================
+
 @use "layout/header";
 @use "layout/main";
 @use "layout/footer";
@@ -16,12 +19,16 @@
 //-------------------------------
 //Component
 //-------------------------------
-@use "object/component/btn";
+@use "object/component/title";
+@use "object/component/sideMenu";
+@use "object/component/search";
+
 
 //-------------------------------
 //Project
 //-------------------------------
-
+@use "object/project/mainVisual";
+@use "object/project/mainCard";
 
 //-------------------------------
 //Utility
