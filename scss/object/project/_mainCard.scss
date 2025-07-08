@@ -7,16 +7,62 @@
 
 .p-front-TakeOut {
     background: url(../../../img/TakeOut_back.png) no-repeat;
+    margin: 20px;
+    width: 335px;
+    height: 642px;
 }
 
 .p-front-EatIn {
     background: url(../../../img/EatIn_back.png) no-repeat;
+    margin: 20px;
+    width: 336px;
+    height: 643px;
 }
 
 .p-front-TakeOut-title {
     font-size: 41px;
+    color: variables.$color-white2;
+    margin-top: 13px;
+    margin-left: 15px;
 }
 
 .p-front-EatIn-title {
     font-size: 41px;
+    color: variables.$color-white;
+    margin-top: 13px;
+    margin-left: 13px;
+}
+
+.p-boldline {
+    width: 33.89px;
+    height: 4px;
+    background-color: variables.$color-white;
+    margin-left: 15.5px;
+    margin-top: 15.5px;
+}
+
+.p-whitebox-1 {
+    background-color: rgb(255 255 255 / 0.8);
+    padding: 16px;
+    margin: 217px 16px 16px 16px;
+}
+
+.p-whitebox-2 {
+    background-color: rgb(255 255 255 / 0.8);
+    padding: 16px;
+    margin: 16px;
+}
+
+
+.p-front-subtitle {
+    font-size: 22px;
+    color: variables.$color-brown;
+}
+
+.p-front-cardtext {
+    font-size: 16px;
+    color: variables.$color-brown;
+    width: 271px;
+    height: 92px;
+
 }

@@ -1,14 +1,75 @@
 @use "../../foundation/variables";
 
+
+
+.c-sideMenu.open {
+    display: block;
+    background-color: variables.$color-beige3;
+    color: variables.$color-gray;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 328px;
+    height: 2716px;
+    z-index: 3;
+}
+
+.c-sideMenu.close {
+    display: none;
+}
+
+
+.c-menuList {
+    position: absolute;
+    top: 178px;
+}
+
+.c-sideMenu-li {
+    font-size: 24px;
+    margin-left: 46px;
+}
+
+.c-sideMenu-li-menu {
+    font-size: 20px;
+    margin: 40px auto 60px 66px;
+    line-height: 50px;
+}
+
 .c-menuBtn {
     color: variables.$color-gray;
     font-size: 20px;
     position: absolute;
     top: 8px;
-    right: 8px;
+    right: 11px;
     margin: 0;
+    z-index: 6;
 }
 
-.c-menuList {
+
+.c-closeIcon {
+    position: relative;
+    width: 32px;
+    height: 36px;
     display: none;
+    /* 初期は非表示 */
+}
+
+.c-closeIcon::before,
+.c-closeIcon::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 45px;
+    height: 6px;
+    background-color: variables.$color-gray;
+    transform-origin: center;
+}
+
+.c-closeIcon::before {
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.c-closeIcon::after {
+    transform: translate(-50%, -50%) rotate(-45deg);
 }

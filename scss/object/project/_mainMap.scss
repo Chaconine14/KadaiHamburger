@@ -1,0 +1,44 @@
+@use "../../foundation/variables";
+
+.p-mainMap {
+    height: 691px;
+    background: url(../../../img/map-img-sp.png) no-repeat;
+    margin-top: 49px;
+}
+
+.p-mainMap-backWhite {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 691px;
+    width: 375px;
+}
+
+.p-mainMap-backBlack {
+    background-color: rgb(0 0 0 / 0.35);
+    height: 415px;
+}
+
+.p-mainMapTitle {
+    color: variables.$color-white;
+    font-size: 30px;
+}
+
+.p-mainMapTextEx {
+    color: variables.$color-white;
+    font-size: 14px;
+    width: 295px;
+    margin-top: 14px;
+    line-height: 33px;
+}
+
+.p-thinline {
+    width: 75px;
+    height: 2px;
+    background-color: variables.$color-white;
+    margin-top: 15px;
+}
+
+
+
+.p-mainMap-textContent {
+    padding: 42px;
+}

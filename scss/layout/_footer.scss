@@ -1,0 +1,26 @@
+@use "../foundation/variables";
+
+.l-footer {
+    background: url(../../img/footer-layer.png)no-repeat;
+    height: 150px;
+    position: relative;
+}
+
+.l-footer-link {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
+
+.l-footer-link-text {
+    color: variables.$color-white;
+    font-size: 18px;
+}
+
+.l-footer-copy {
+    color: variables.$color-white;
+    font-size: 14px;
+    position: absolute;
+    bottom: 16px;
+    left: 109px;
+}

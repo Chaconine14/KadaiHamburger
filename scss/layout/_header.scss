@@ -5,3 +5,15 @@
     height: 215px;
     position: relative;
 }
+
+.l-menuBtn {
+    color: variables.$color-gray;
+    font-size: 20px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    margin: 0;
+    border: none;
+    background: none;
+    z-index: 5;
+}

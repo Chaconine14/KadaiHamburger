@@ -28,43 +28,53 @@
                 <button class="c-search-btn font-mplus-700" type="submit">検索</button>
             </form>
         </search>
+        <!-- <p class="c-menuBtn close font-roboto">Menu</p>
+        <span class="c-closeIcon"></span> 擬似要素でバツを作る -->
 
-        <aside>
-            <p class="c-menuBtn font-roboto">Menu</p>
-            <ul class="c-menuList">
-                <li>バーガー</li>
+        <div class="c-menuBtn">
+            <span class="c-menuText font-roboto">Menu</span>
+            <span class="c-closeIcon"></span> <!-- 擬似要素でバツを作る -->
+        </div>
 
-                <ul>
-                    <li>ハンバーガー</li>
-                    <li>チーズバーガー</li>
-                    <li>テリヤキバーガー</li>
-                    <li>アボカドバーガー</li>
-                    <li>フィッシュバーガー</li>
-                    <li>ベーコンバーガー</li>
-                    <li>チキンバーガー</li>
-                </ul>
 
-                <li>サイド</li>
-                <ul>
-                    <li>ポテト</li>
-                    <li>サラダ</li>
-                    <li>ナゲット</li>
-                    <li>コーン</li>
-                </ul>
 
-                <li>ドリンク</li>
-                <ul>
-                    <li>コーラ</li>
-                    <li>ファンタ</li>
-                    <li>オレンジ</li>
-                    <li>アップル</li>
-                    <li>紅茶（Ice/Hot）</li>
-                    <li>コーヒー（Ice/Hot）</li>
-                </ul>
-
-            </ul>
-        </aside>
     </header>
+
+    <aside class="c-sideMenu close">
+
+        <ul class="c-menuList">
+            <li class="c-sideMenu-li font-mplus-700">バーガー</li>
+
+            <ul class="c-sideMenu-li-menu font-mplus-400">
+                <li>ハンバーガー</li>
+                <li>チーズバーガー</li>
+                <li>テリヤキバーガー</li>
+                <li>アボカドバーガー</li>
+                <li>フィッシュバーガー</li>
+                <li>ベーコンバーガー</li>
+                <li>チキンバーガー</li>
+            </ul>
+
+            <li class="c-sideMenu-li font-mplus-700">サイド</li>
+            <ul class="c-sideMenu-li-menu font-mplus-400">
+                <li>ポテト</li>
+                <li>サラダ</li>
+                <li>ナゲット</li>
+                <li>コーン</li>
+            </ul>
+
+            <li class="c-sideMenu-li font-mplus-700">ドリンク</li>
+            <ul class="c-sideMenu-li-menu font-mplus-400">
+                <li>コーラ</li>
+                <li>ファンタ</li>
+                <li>オレンジ</li>
+                <li>アップル</li>
+                <li>紅茶（Ice/Hot）</li>
+                <li>コーヒー（Ice/Hot）</li>
+            </ul>
+
+        </ul>
+    </aside>
 
     <main class="p-mainVisual">
         <img src="img/mainvisual-sp@2x.jpg" class="p-mainVisual-img" alt="メインビジュアル">
@@ -76,37 +86,61 @@
 
         <div class="p-front-TakeOut">
             <h2 class="p-front-TakeOut-title font-mplus-700">Take Out</h2>
-            <h3>Take OUT</h3>
-            <p>当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利
-            </p>
-            <h3>Take OUT</h3>
-            <p>当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利
-            </p>
+            <div class="p-boldline"></div>
+            <div class="p-whitebox-1">
+                <h3 class="p-front-subtitle font-mplus-700">Take OUT</h3>
+                <p class="p-front-cardtext font-mplus-400">
+                    当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています</p>
+            </div>
+            <div class="p-whitebox-2">
+                <h3 class="p-front-subtitle font-mplus-700">Take OUT</h3>
+                <p class="p-front-cardtext font-mplus-400">
+                    当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています</p>
+            </div>
         </div>
 
         <div class="p-front-EatIn">
             <h2 class="p-front-EatIn-title font-mplus-700">Eat In</h2>
-            <h3>Eat In</h3>
-            <p>店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけ
-            </p>
-            <h3>Eat In</h3>
-            <p>店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけ
-            </p>
+            <div class="p-boldline"></div>
+            <div class="p-whitebox">
+                <div class="p-whitebox-1">
+                    <h3 class="p-front-subtitle font-mplus-700">Eat In</h3>
+                    <p class="p-front-cardtext font-mplus-400">
+                        店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです</p>
+                </div>
+                <div class="p-whitebox-2">
+                    <h3 class="p-front-subtitle font-mplus-700">Eat In</h3>
+                    <p class="p-front-cardtext font-mplus-400">
+                        店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです</p>
+                </div>
+            </div>
         </div>
-
     </article>
-    <section>
-        <h1>見出しが入ります</h1>
-        <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
-        </p>
+
+    <section class="p-mainMap">
+        <div class="p-mainMap-backWhite">
+            <div class="p-mainMap-backBlack">
+                <div class="p-mainMap-textContent">
+                    <h1 class="p-mainMapTitle font-mplus-700">見出しが入ります</h1>
+                    <div class="p-thinline"></div>
+                    <p class="p-mainMapTextEx font-mplus-700">
+                        テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入りま
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <footer>
-        <a href="">ショップ情報</a>
-        <a href="">ヒストリー</a>
-        <small>Copyright: RaiseTech</small>
+    <footer class="l-footer">
+        <div class="l-footer-link font-mplus-400">
+            <a href="" class="l-footer-link-text">ショップ情報</a>
+            <p class="l-footer-link-text">｜</p>
+            <a href="" class="l-footer-link-text">ヒストリー</a>
+        </div>
+        <small class="l-footer-copy font-mplus-400">Copyright: RaiseTech</small>
     </footer>
 
+    <script src="./main.js"></script>
 
 </body>
 
