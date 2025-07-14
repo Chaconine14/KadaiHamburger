@@ -19,3 +19,11 @@ ul {
 li {
     list-style: none;
 }
+
+
+@include variables.media-pc {
+    .wrapper {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}

@@ -1,9 +1,11 @@
 @use "../../foundation/variables";
 
-.c-search-form {
+.c-search {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 3%;
+
 }
 
 
@@ -17,6 +19,13 @@
     width: 90px;
     padding: 0;
     margin: 0 0 0 12px;
+
+    @include variables.media-tb {
+
+        min-width: 8vw;
+        max-width: 80px;
+    }
+
 }
 
 .c-search-input {
@@ -28,4 +37,19 @@
     margin: 0;
     background: url(../../../img/パス\ 270.png)no-repeat 5px center;
     background-color: variables.$color-white;
+
+
+    @include variables.media-tb {
+
+        min-width: 25vw;
+        max-width: 200px;
+    }
+
+
+}
+
+.c-search-form {
+    display: flex;
+    flex-wrap: nowrap;
+
 }

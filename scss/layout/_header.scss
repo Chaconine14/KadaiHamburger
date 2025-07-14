@@ -4,16 +4,17 @@
     background-color: variables.$color-beige;
     height: 215px;
     position: relative;
-}
 
-.l-menuBtn {
-    color: variables.$color-gray;
-    font-size: 20px;
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    margin: 0;
-    border: none;
-    background: none;
-    z-index: 5;
+    @include variables.media-tb {
+
+        height: 217px;
+
+    }
+
+    @include variables.media-pc {
+
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
 }

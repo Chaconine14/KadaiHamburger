@@ -1,7 +1,5 @@
 @use "../../foundation/variables";
 
-
-
 .c-sideMenu.open {
     display: block;
     background-color: variables.$color-beige3;
@@ -12,11 +10,34 @@
     width: 328px;
     height: 2716px;
     z-index: 3;
+
+    @include variables.media-tb {
+        height: 1826px;
+    }
+
 }
 
 .c-sideMenu.close {
     display: none;
+
+    @include variables.media-pc {
+        display: block;
+        background-color: variables.$color-beige3;
+        color: variables.$color-gray;
+        position: static;
+        width: 368px;
+        height: auto;
+        z-index: 3;
+    }
+
 }
+
+.mainArea {
+    @include variables.media-pc {
+        width: calc(100% - 368px);
+    }
+}
+
 
 
 .c-menuList {
@@ -29,10 +50,30 @@
     margin-left: 46px;
 }
 
+.c-sideMenu-Menu {
+    display: none;
+
+    @include variables.media-pc {
+        display: block;
+        color: variables.$color-gray;
+        font-size: 34px;
+        position: absolute;
+        top: 84px;
+        right: 234px;
+        margin: 0;
+        z-index: 6;
+    }
+}
+
 .c-sideMenu-li-menu {
     font-size: 20px;
     margin: 40px auto 60px 66px;
     line-height: 50px;
+
+    @include variables.media-tb {
+        margin-top: 32px;
+    }
+
 }
 
 .c-menuBtn {
@@ -43,6 +84,18 @@
     right: 11px;
     margin: 0;
     z-index: 6;
+
+    @include variables.media-tb {
+
+        font-size: 170%;
+        top: 20px;
+        right: 25px;
+
+    }
+
+    @include variables.media-pc {
+        display: none;
+    }
 }
 
 

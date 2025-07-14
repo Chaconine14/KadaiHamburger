@@ -3,20 +3,47 @@
 
 .p-mainCard {
     background-color: variables.$color-beige;
+
+    @include variables.media-tb {
+
+        display: flex;
+    }
+
+    @include variables.media-pc {
+
+        display: flex;
+        margin-bottom: 5%;
+    }
 }
 
 .p-front-TakeOut {
-    background: url(../../../img/TakeOut_back.png) no-repeat;
+    background: url(../../../img/TakeOut_back.png);
     margin: 20px;
-    width: 335px;
-    height: 642px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+    padding: 16px;
+
+    @include variables.media-tb {
+        margin: 40px 20px 40px 40px;
+    }
+
 }
 
 .p-front-EatIn {
-    background: url(../../../img/EatIn_back.png) no-repeat;
+    background: url(../../../img/EatIn_back.png);
     margin: 20px;
-    width: 336px;
-    height: 643px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+    padding: 16px;
+
+    @include variables.media-tb {
+        margin: 40px 40px 40px 20px;
+    }
+
 }
 
 .p-front-TakeOut-title {
@@ -24,6 +51,12 @@
     color: variables.$color-white2;
     margin-top: 13px;
     margin-left: 15px;
+
+    @include variables.media-tb {
+        font-size: 44px;
+        margin-top: 16px;
+        margin-left: 13px;
+    }
 }
 
 .p-front-EatIn-title {
@@ -31,6 +64,12 @@
     color: variables.$color-white;
     margin-top: 13px;
     margin-left: 13px;
+
+    @include variables.media-tb {
+        font-size: 44px;
+        margin-top: 16px;
+        margin-left: 13px;
+    }
 }
 
 .p-boldline {
@@ -44,25 +83,34 @@
 .p-whitebox-1 {
     background-color: rgb(255 255 255 / 0.8);
     padding: 16px;
-    margin: 217px 16px 16px 16px;
+    margin: 217px 0 0 0;
 }
 
 .p-whitebox-2 {
     background-color: rgb(255 255 255 / 0.8);
     padding: 16px;
-    margin: 16px;
+    margin: 16px 0 0 0;
 }
 
 
 .p-front-subtitle {
     font-size: 22px;
     color: variables.$color-brown;
+
+    @include variables.media-tb {
+        margin-bottom: 16px;
+        font-size: 24px;
+    }
 }
 
 .p-front-cardtext {
     font-size: 16px;
     color: variables.$color-brown;
-    width: 271px;
+    width: auto;
     height: 92px;
+
+    @include variables.media-tb {
+        font-size: 14px;
+    }
 
 }

@@ -2,19 +2,47 @@
 
 .p-mainMap {
     height: 691px;
-    background: url(../../../img/map-img-sp.png) no-repeat;
+    background: url(../../../img/map-img.png);
     margin-top: 49px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+
+    @include variables.media-tb {
+        margin-top: 0;
+        height: 415px;
+    }
+
+    @include variables.media-pc {
+        margin-top: 0;
+        height: 649px;
+    }
 }
 
 .p-mainMap-backWhite {
     background-color: rgba(0, 0, 0, 0.4);
     height: 691px;
-    width: 375px;
+    width: auto;
+
+    @include variables.media-tb {
+        height: auto;
+    }
+
+    @include variables.media-pc {
+        height: 100%;
+    }
+
 }
 
 .p-mainMap-backBlack {
     background-color: rgb(0 0 0 / 0.35);
     height: 415px;
+
+    @include variables.media-pc {
+        height: 100%;
+        width: 60%;
+    }
 }
 
 .p-mainMapTitle {
@@ -25,7 +53,7 @@
 .p-mainMapTextEx {
     color: variables.$color-white;
     font-size: 14px;
-    width: 295px;
+    width: auto;
     margin-top: 14px;
     line-height: 33px;
 }
