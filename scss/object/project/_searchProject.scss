@@ -1,0 +1,15 @@
+@use "../../foundation/variables";
+
+
+.p-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 3%;
+
+    &__form {
+        display: flex;
+        flex-wrap: nowrap;
+
+    }
+}

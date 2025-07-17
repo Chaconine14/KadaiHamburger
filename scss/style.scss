@@ -5,12 +5,18 @@
 @use "foundation/variables";
 @use "foundation/base";
 
+
 //===============================================
 //Layout
 //===============================================
 
-@use "layout/header";
-@use "layout/footer";
+@use "layout/wrapperLayout";
+@use "layout/mainAreaLayout";
+@use "layout/headerLayout";
+@use "layout/footerLayout";
+@use "layout/sideMenuLayout";
+@use "layout/mainCardLayout";
+@use "layout/mainMapLayout";
 
 //===============================================
 //Object
@@ -19,16 +25,27 @@
 //Component
 //-------------------------------
 @use "object/component/title";
-@use "object/component/sideMenu";
 @use "object/component/search";
+@use "object/component/sideMenu";
+@use "object/component/menuBtnSPTB";
+@use "object/component/closeIcon";
+@use "object/component/mainVisual";
+@use "object/component/mainCard";
+@use "object/component/whitebox";
+@use "object/component/mainMap";
+@use "object/component/footerLink";
 
 
 //-------------------------------
 //Project
 //-------------------------------
-@use "object/project/mainVisual";
-@use "object/project/mainCard";
-@use "object/project/mainMap";
+@use "object/project/mainVisualProject";
+@use "object/project/menuListProject";
+@use "object/project/searchProject";
+@use "object/project/mainCardProject";
+@use "object/project/mainMapProject";
+@use "object/project/footerLinkProject";
+
 
 //-------------------------------
 //Utility

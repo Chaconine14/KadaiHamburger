@@ -1,15 +1,9 @@
 @use "../../foundation/variables";
 
-.c-search {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 3%;
-
-}
 
 
-.c-search-btn {
+
+.c-search__btn {
     background: linear-gradient(to left, #F2EDE9, #DED8D3);
     color: variables.$color-gray;
     font-size: 16px;
@@ -28,15 +22,16 @@
 
 }
 
-.c-search-input {
+.c-search__input {
     border: 1px variables.$color-gray solid;
     border-radius: 10px;
     height: 46px;
     width: 216px;
-    padding: 0;
+
     margin: 0;
-    background: url(../../../img/パス\ 270.png)no-repeat 5px center;
+    background: url(../../../img/search-icon.png)no-repeat 5px center;
     background-color: variables.$color-white;
+    padding: 0 10px 0 35px;
 
 
     @include variables.media-tb {
@@ -48,7 +43,8 @@
 
 }
 
-.c-search-form {
+
+.c-search__form {
     display: flex;
     flex-wrap: nowrap;
 

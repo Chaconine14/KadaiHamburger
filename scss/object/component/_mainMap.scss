@@ -1,0 +1,71 @@
+@use "../../foundation/variables";
+
+
+.c-mainMap__back {
+
+    &__white {
+        background-color: rgba(0, 0, 0, 0.4);
+        // height: 691px;
+        height: auto;
+        width: auto;
+
+        @include variables.media-tb {
+            height: auto;
+        }
+
+        @include variables.media-pc {
+            // height: 100%;
+            height: auto;
+        }
+
+    }
+
+    &__black {
+        background-color: rgb(0 0 0 / 0.35);
+        // height: 415px;
+        height: auto;
+
+        @include variables.media-pc {
+            // height: 100%;
+            height: auto;
+            width: 60%;
+        }
+    }
+}
+
+
+.c-mainMap__title {
+    color: variables.$color-white;
+    font-size: 30px;
+
+    @include variables.media-pc {
+        margin: 8%;
+    }
+}
+
+.c-mainMap__textEx {
+    color: variables.$color-white;
+    font-size: 14px;
+    width: auto;
+    height: auto;
+    margin-top: 14px;
+    line-height: 33px;
+
+    @include variables.media-pc {
+        margin: 8%;
+    }
+}
+
+
+.c-mainMap__title::after {
+    display: block;
+    content: "";
+    width: 75px;
+    height: 2px;
+    background-color: variables.$color-white;
+    margin-top: 15px;
+
+    @include variables.media-pc {
+        margin-top: 8%;
+    }
+}

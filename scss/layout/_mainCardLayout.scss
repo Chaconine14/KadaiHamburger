@@ -1,0 +1,17 @@
+@use "../foundation/variables";
+
+
+.l-mainCard {
+    background-color: variables.$color-beige;
+
+    @include variables.media-tb {
+
+        display: flex;
+    }
+
+    @include variables.media-pc {
+
+        display: flex;
+        margin-bottom: 5%;
+    }
+}

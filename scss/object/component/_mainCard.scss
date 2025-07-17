@@ -1,0 +1,63 @@
+@use "../../foundation/variables";
+
+
+.c-mainCard__TakeOut__title {
+    font-size: 41px;
+    color: variables.$color-white2;
+    margin-top: 13px;
+    margin-left: 15px;
+
+    @include variables.media-tb {
+        font-size: 44px;
+        margin-top: 16px;
+        margin-left: 13px;
+    }
+}
+
+.c-mainCard__EatIn__title {
+    font-size: 41px;
+    color: variables.$color-white;
+    margin-top: 13px;
+    margin-left: 13px;
+
+    @include variables.media-tb {
+        font-size: 44px;
+        margin-top: 16px;
+        margin-left: 13px;
+    }
+}
+
+.c-mainCard__TakeOut__title::after,
+.c-mainCard__EatIn__title::after {
+    width: 33.89px;
+    height: 4px;
+    background-color: variables.$color-white;
+    margin-top: 15.5px;
+    content: "";
+    display: block;
+}
+
+
+.c-mainCard__subtitle {
+    font-size: 22px;
+    color: variables.$color-brown;
+    padding: 16px 16px 0 16px;
+
+    @include variables.media-tb {
+        font-size: 24px;
+    }
+}
+
+.c-mainCard__cardtext {
+    font-size: 16px;
+    color: variables.$color-brown;
+    width: auto;
+    height: auto;
+    padding: 16px;
+    box-sizing: border-box;
+
+    @include variables.media-tb {
+        font-size: 14px;
+    }
+
+}

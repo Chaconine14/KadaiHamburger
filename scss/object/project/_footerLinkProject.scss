@@ -1,0 +1,14 @@
+@use "../../foundation/variables";
+
+
+.p-footerLink {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+
+    @include variables.media-tb {
+
+        padding: 30px;
+
+    }
+}

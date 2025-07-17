@@ -1,0 +1,25 @@
+@use "../../foundation/variables";
+
+
+
+.c-menuBtnSPTB {
+    color: variables.$color-gray;
+    font-size: 20px;
+    position: absolute;
+    top: 8px;
+    right: 11px;
+    margin: 0;
+    z-index: 6;
+
+    @include variables.media-tb {
+
+        font-size: 170%;
+        top: 20px;
+        right: 25px;
+
+    }
+
+    @include variables.media-pc {
+        display: none;
+    }
+}

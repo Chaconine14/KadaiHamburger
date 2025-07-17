@@ -1,0 +1,33 @@
+@use "../foundation/variables";
+
+.l-sideMenu.is-open {
+    display: block;
+    background-color: variables.$color-beige3;
+    color: variables.$color-gray;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 328px;
+    height: 2716px;
+    z-index: 3;
+
+    @include variables.media-tb {
+        height: 1826px;
+    }
+
+}
+
+.l-sideMenu.is-close {
+    display: none;
+
+    @include variables.media-pc {
+        display: block;
+        background-color: variables.$color-beige3;
+        color: variables.$color-gray;
+        position: static;
+        width: 368px;
+        height: auto;
+        z-index: 3;
+    }
+
+}
