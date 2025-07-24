@@ -2,9 +2,12 @@
 
 
 
-@include variables.media-pc {
-    .l-wrapper {
+
+.l-wrapper {
+    @include variables.media-pc {
         display: flex;
         flex-direction: row-reverse;
+        height: 100%;
+        position: relative;
     }
 }

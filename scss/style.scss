@@ -10,13 +10,13 @@
 //Layout
 //===============================================
 
-@use "layout/wrapperLayout";
-@use "layout/mainAreaLayout";
-@use "layout/headerLayout";
-@use "layout/footerLayout";
-@use "layout/sideMenuLayout";
-@use "layout/mainCardLayout";
-@use "layout/mainMapLayout";
+@use "layout/wrapper_layout";
+@use "layout/main-area_layout";
+@use "layout/header_layout";
+@use "layout/footer_layout";
+@use "layout/side-menu_layout";
+@use "layout/main-card_layout";
+@use "layout/main-map_layout";
 
 //===============================================
 //Object
@@ -26,25 +26,25 @@
 //-------------------------------
 @use "object/component/title";
 @use "object/component/search";
-@use "object/component/sideMenu";
-@use "object/component/menuBtnSPTB";
-@use "object/component/closeIcon";
-@use "object/component/mainVisual";
-@use "object/component/mainCard";
+@use "object/component/side-menu";
+@use "object/component/menu-btn-sptb";
+@use "object/component/close-icon";
+@use "object/component/main-visual";
+@use "object/component/main-card";
 @use "object/component/whitebox";
-@use "object/component/mainMap";
-@use "object/component/footerLink";
+@use "object/component/main-map";
+@use "object/component/footer-link";
 
 
 //-------------------------------
 //Project
 //-------------------------------
-@use "object/project/mainVisualProject";
-@use "object/project/menuListProject";
-@use "object/project/searchProject";
-@use "object/project/mainCardProject";
-@use "object/project/mainMapProject";
-@use "object/project/footerLinkProject";
+@use "object/project/main-visual_project";
+@use "object/project/menu-list_project";
+@use "object/project/search_project";
+@use "object/project/main-card_project";
+@use "object/project/main-map_project";
+@use "object/project/footer-link_project";
 
 
 //-------------------------------

@@ -1,0 +1,55 @@
+@use "../../foundation/variables";
+
+
+.p-mainCard__TakeOut {
+    background: url(../../../img/takeout_back.png);
+    flex: 1;
+    margin: 20px;
+    width: auto;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+
+    @include variables.media-tb {
+        margin: 40px 20px 40px 40px;
+    }
+
+    @include variables.media-pc {
+        margin: 8%;
+        margin-right: 4%;
+        height: 1197px;
+        width: auto;
+    }
+
+}
+
+
+.p-mainCard__EatIn {
+    background: url(../../../img/eatin_back.png);
+    flex: 1;
+    margin: 20px;
+    width: auto;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+
+    @include variables.media-tb {
+        margin: 40px 40px 40px 20px;
+    }
+
+    @include variables.media-pc {
+        margin: 8%;
+        margin-left: 4%;
+        height: 1197px;
+        width: auto;
+    }
+
+}

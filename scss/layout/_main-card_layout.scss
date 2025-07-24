@@ -9,9 +9,4 @@
         display: flex;
     }
 
-    @include variables.media-pc {
-
-        display: flex;
-        margin-bottom: 5%;
-    }
 }

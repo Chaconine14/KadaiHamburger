@@ -12,6 +12,12 @@
         margin-top: 16px;
         margin-left: 13px;
     }
+
+    @include variables.media-pc {
+        font-size: 280%;
+        margin-top: 24px;
+        margin-left: 10px;
+    }
 }
 
 .c-mainCard__EatIn__title {
@@ -24,6 +30,12 @@
         font-size: 44px;
         margin-top: 16px;
         margin-left: 13px;
+    }
+
+    @include variables.media-pc {
+        font-size: 280%;
+        margin-top: 24px;
+        margin-left: 10px;
     }
 }
 
@@ -58,6 +70,10 @@
 
     @include variables.media-tb {
         font-size: 14px;
+    }
+
+    @include variables.media-pc {
+        font-size: 16px;
     }
 
 }
