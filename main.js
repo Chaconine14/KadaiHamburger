@@ -16,3 +16,5 @@ menuBtn.addEventListener('click', () => {
         closeIcon.style.display = 'none';
     }
 });
+
+

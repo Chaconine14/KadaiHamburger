@@ -1,24 +1,23 @@
 @use "../../foundation/variables";
 
 .c-whitebox__wrap {
-    height: 100%;
-    gap: 20px;
+
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
+    flex-shrink: 0; // 下に寄せたいなら追加
+    margin-top: auto; // ←これでも下寄せ効果ある
 
 
-    // display: grid;
-    // grid-template-columns: 1fr;
 }
 
 .c-whitebox__1 {
     margin: 217px 0 0 0;
     height: 100%;
 
-    @include variables.media-pc {
-        margin: 120% 0 0 0;
+    // @include variables.media-pc {
+    //     margin: 120% 0 0 0;
 
-    }
+    // }
 
 
 }
