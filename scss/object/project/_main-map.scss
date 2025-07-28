@@ -1,7 +1,37 @@
 @use "../../foundation/variables";
 
 
-.c-mainMap__back {
+
+.p-mainMap {
+    height: auto;
+    width: auto;
+    background: url(../../../img/map-img.png);
+    margin-top: 49px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+    @include variables.media-tb {
+        margin-top: 0;
+        // height: 415px;
+        height: auto;
+    }
+
+    @include variables.media-pc {
+        margin-top: 0;
+        // height: 649px;
+        height: auto;
+    }
+}
+
+.p-mainMap__wrap {
+    padding: 42px;
+}
+
+
+
+.p-mainMap__back {
 
     &__white {
         background-color: rgba(0, 0, 0, 0.4);
@@ -34,7 +64,7 @@
 }
 
 
-.c-mainMap__title {
+.p-mainMap__title {
     color: variables.$color-white;
     font-size: 30px;
 
@@ -43,7 +73,7 @@
     }
 }
 
-.c-mainMap__textEx {
+.p-mainMap__textEx {
     color: variables.$color-white;
     font-size: 14px;
     width: auto;
@@ -57,7 +87,7 @@
 }
 
 
-.c-mainMap__title::after {
+.p-mainMap__title::after {
     display: block;
     content: "";
     width: 75px;

@@ -1,0 +1,61 @@
+@use "../../foundation/variables";
+
+.p-whitebox__wrap {
+
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0; // 下に寄せたいなら追加
+    margin-top: auto; // ←これでも下寄せ効果ある
+
+
+
+    gap: 16px; // 上下の間隔調整に便利追加した！！！
+
+
+}
+
+// .p-whitebox__1 {
+//     margin: 217px 0 0 0;
+//     height: 100%;
+// }
+
+// .p-whitebox__2 {
+//     margin: 16px 0 0 0;
+//     height: 100%;
+// }
+
+
+
+.p-whitebox__1,
+.p-whitebox__2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    flex: 1; // 高さ揃えたいなら追加！
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+    height: 100%; //ここにまとめて追加した！！！
+    margin: 0; //追記した
+
+}
+
+
+/////
+// .p-whitebox__wrap {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: flex-end;
+//   gap: 16px; // 上下の間隔調整に便利
+// }
+
+// .p-whitebox__1,
+// .p-whitebox__2 {
+//   flex: 1;
+//   background-color: rgba(255, 255, 255, 0.8);
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+//   box-sizing: border-box;
+//   margin: 0;
+// }

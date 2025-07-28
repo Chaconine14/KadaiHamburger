@@ -24,3 +24,27 @@
     }
 
 }
+
+
+.p-mainVisual__text {
+    position: absolute;
+    top: 122px;
+    left: 25px;
+    font-size: 36px;
+    color: variables.$color-white;
+    position: absolute;
+    z-index: 2;
+
+    @include variables.media-tb {
+        left: 10%;
+
+    }
+
+    @include variables.media-pc {
+        font-size: 40px;
+        top: 234px;
+        left: 86px;
+
+    }
+
+}

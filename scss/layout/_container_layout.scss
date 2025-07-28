@@ -3,7 +3,7 @@
 
 
 
-.l-wrapper {
+.l-container {
     @include variables.media-pc {
         display: flex;
         flex-direction: row-reverse;

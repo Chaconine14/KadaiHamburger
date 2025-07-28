@@ -1,4 +1,4 @@
-const sideMenu = document.querySelector('.l-sideMenu');
+const sideMenu = document.querySelector('.p-sideMenu');
 const menuBtn = document.querySelector('.c-menuBtnSPTB');
 const closeIcon = document.querySelector('.js-closeIcon');
 const menuText = document.querySelector('.js-menuText');

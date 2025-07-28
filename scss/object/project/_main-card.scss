@@ -1,0 +1,158 @@
+@use "../../foundation/variables";
+
+
+
+.p-mainCard {
+    background-color: variables.$color-beige;
+
+    @include variables.media-tb {
+
+        display: flex;
+
+
+    }
+
+}
+
+
+.p-mainCard__TakeOut {
+    background: url(../../../img/takeout_back.png);
+    flex: 1;
+    margin: 20px;
+    width: auto;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+
+    justify-content: flex-end;
+
+    @include variables.media-tb {
+        margin: 40px 20px 40px 40px;
+    }
+
+    @include variables.media-pc {
+        margin: 8%;
+        margin-right: 4%;
+        height: 1197px;
+        width: auto;
+
+    }
+
+}
+
+
+.p-mainCard__EatIn {
+    background: url(../../../img/eatin_back.png);
+    flex: 1;
+    margin: 20px;
+    width: auto;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    justify-content: flex-end;
+
+    @include variables.media-tb {
+        margin: 40px 40px 40px 20px;
+    }
+
+    @include variables.media-pc {
+        margin: 8%;
+        margin-left: 4%;
+        height: 1197px;
+        width: auto;
+    }
+
+}
+
+
+
+.p-mainCard__TakeOut__title {
+    font-size: 41px;
+    color: variables.$color-white2;
+    margin-top: 13px;
+    margin-left: 15px;
+
+    @include variables.media-tb {
+        font-size: 44px;
+        margin-top: 16px;
+        margin-left: 13px;
+    }
+
+    @include variables.media-pc {
+        font-size: 280%;
+        margin-top: 24px;
+        margin-left: 10px;
+    }
+}
+
+.p-mainCard__EatIn__title {
+    font-size: 41px;
+    color: variables.$color-white;
+    margin-top: 13px;
+    margin-left: 13px;
+
+    @include variables.media-tb {
+        font-size: 44px;
+        margin-top: 16px;
+        margin-left: 13px;
+    }
+
+    @include variables.media-pc {
+        font-size: 280%;
+        margin-top: 24px;
+        margin-left: 10px;
+    }
+}
+
+.p-mainCard__TakeOut__title::after,
+.p-mainCard__EatIn__title::after {
+    width: 33.89px;
+    height: 4px;
+    background-color: variables.$color-white;
+    margin-top: 15.5px;
+    content: "";
+    display: block;
+    margin-bottom: 217px;
+
+    @include variables.media-tb {
+        margin-bottom: 250px;
+    }
+
+}
+
+
+.p-mainCard__subtitle {
+    font-size: 22px;
+    color: variables.$color-brown;
+    padding: 16px 16px 0 16px;
+
+    @include variables.media-tb {
+        font-size: 24px;
+    }
+}
+
+.p-mainCard__cardtext {
+    font-size: 16px;
+    color: variables.$color-brown;
+    width: auto;
+    height: auto;
+    padding: 16px;
+    box-sizing: border-box;
+
+    @include variables.media-tb {
+        font-size: 14px;
+    }
+
+    @include variables.media-pc {
+        font-size: 16px;
+    }
+
+}
