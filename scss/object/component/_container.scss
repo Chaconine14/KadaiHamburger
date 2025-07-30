@@ -1,9 +1,8 @@
-@use "../foundation/variables";
+@use "../../foundation/variables";
 
 
 
-
-.l-container {
+.c-container {
     @include variables.media-pc {
         display: flex;
         flex-direction: row-reverse;

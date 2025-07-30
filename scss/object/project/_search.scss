@@ -1,6 +1,6 @@
 @use "../../foundation/variables";
 
-.c-search {
+.p-search {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,7 +8,7 @@
 }
 
 
-.c-search__btn {
+.p-search__btn {
     background: linear-gradient(to left, #F2EDE9, #DED8D3);
     color: variables.$color-gray;
     font-size: 16px;
@@ -27,7 +27,7 @@
 
 }
 
-.c-search__input {
+.p-search__input {
     border: 1px variables.$color-gray solid;
     border-radius: 10px;
     height: 46px;
@@ -49,7 +49,7 @@
 }
 
 
-.c-search__form {
+.p-search__form {
     display: flex;
     flex-wrap: nowrap;
 

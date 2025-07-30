@@ -2,16 +2,15 @@
 
 
 
-.c-closeIcon {
+.c-icon__close {
     position: relative;
     width: 32px;
     height: 36px;
     display: none;
-    /* 初期は非表示 */
 }
 
-.c-closeIcon::before,
-.c-closeIcon::after {
+.c-icon__close::before,
+.c-icon__close::after {
     content: '';
     position: absolute;
     top: 50%;
@@ -22,10 +21,10 @@
     transform-origin: center;
 }
 
-.c-closeIcon::before {
+.c-icon__close::before {
     transform: translate(-50%, -50%) rotate(45deg);
 }
 
-.c-closeIcon::after {
+.c-icon__close::after {
     transform: translate(-50%, -50%) rotate(-45deg);
 }

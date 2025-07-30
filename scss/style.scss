@@ -10,7 +10,6 @@
 //Layout
 //===============================================
 
-@use "layout/container_layout";
 @use "layout/main-area_layout";
 @use "layout/header_layout";
 @use "layout/footer_layout";
@@ -21,17 +20,17 @@
 //-------------------------------
 //Component
 //-------------------------------
-@use "object/component/title";
-@use "object/component/search";
+@use "object/component/container";
 @use "object/component/menu-btn-sptb";
-@use "object/component/close-icon";
+@use "object/component/icon";
 
 //-------------------------------
 //Project
 //-------------------------------
 @use "object/project/main-visual";
+@use "object/project/title";
+@use "object/project/search";
 @use "object/project/side-menu";
-@use "object/project/menu-list";
 @use "object/project/main-card";
 @use "object/project/whitebox";
 @use "object/project/main-map";
