@@ -398,6 +398,30 @@ li {
   }
 }
 
+.c-container::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(128, 128, 128, 0.7);
+  z-index: 3;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+}
+@media (min-width: 1025px) {
+  .c-container::before {
+    display: none;
+  }
+}
+
+.c-container.is-open::before {
+  opacity: 1;
+  visibility: visible;
+}
+
 .c-menu-btn__sptb {
   color: #707070;
   font-size: 20px;
@@ -570,7 +594,7 @@ li {
   transform: translateX(100%);
   transition: transform 0.3s;
   z-index: 4;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 @media (min-width: 1025px) {
   .p-side-menu {
@@ -639,24 +663,10 @@ li {
   }
 }
 
-.p-side-menu__overlay {
+body.no-scroll {
   position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
-  height: 100%;
-  background-color: rgba(128, 128, 128, 0.7);
-  z-index: 3;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-.p-side-menu__overlay.is-open {
-  opacity: 1;
-}
-@media (min-width: 1025px) {
-  .p-side-menu__overlay {
-    display: none;
-  }
+  overflow: hidden;
 }
 
 .p-main-card {

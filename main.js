@@ -2,7 +2,7 @@ const sideMenu = document.querySelector('.p-side-menu');
 const menuBtn = document.querySelector('.c-menu-btn__sptb');
 const closeIcon = document.querySelector('.js-icon__close');
 const menuText = document.querySelector('.js-menu-text');
-const overlay = document.querySelector('.js-side-menu__overlay');
+const overlay = document.querySelector('.c-container');
 
 menuBtn.addEventListener('click', () => {
     if (sideMenu.classList.contains("is-close")) {
@@ -12,6 +12,7 @@ menuBtn.addEventListener('click', () => {
         closeIcon.style.display = 'inline-block'; // spanなのでこれ
 
         overlay.classList.add('is-open');
+        document.body.classList.add('no-scroll'); // 背景は固定
 
     } else {
         sideMenu.classList.remove("is-open");
@@ -20,8 +21,8 @@ menuBtn.addEventListener('click', () => {
         closeIcon.style.display = 'none';
 
         overlay.classList.remove('is-open');
+        document.body.classList.remove('no-scroll');
     }
 });
-
 
 
