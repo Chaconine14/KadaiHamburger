@@ -668,6 +668,12 @@ body.no-scroll {
   width: 100%;
   overflow: hidden;
 }
+@media (min-width: 1025px) {
+  body.no-scroll {
+    position: relative;
+    overflow-y: auto;
+  }
+}
 
 .p-main-card {
   background-color: #FFF7EF;

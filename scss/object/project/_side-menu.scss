@@ -99,4 +99,10 @@ body.no-scroll {
     position: fixed;
     width: 100%;
     overflow: hidden;
+
+    @include variables.media-pc {
+        position: relative;
+        overflow-y: auto;
+
+    }
 }
