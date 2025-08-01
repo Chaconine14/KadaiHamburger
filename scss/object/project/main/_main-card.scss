@@ -1,4 +1,4 @@
-@use "../../foundation/variables";
+@use "../../../foundation/variables";
 
 
 
@@ -16,7 +16,7 @@
 
 
 .p-main-card__takeout {
-    background: url(../../../img/takeout_back.png);
+    background: url(../../../../img/takeout_back.png);
     flex: 1;
     margin: 20px;
     width: auto;
@@ -46,7 +46,7 @@
 
 
 .p-main-card__eatin {
-    background: url(../../../img/eatin_back.png);
+    background: url(../../../../img/eatin_back.png);
     flex: 1;
     margin: 20px;
     width: auto;

@@ -1,0 +1,50 @@
+@use "../../../foundation/variables";
+
+.p-archive__card-area {
+    width: auto;
+    height: 100%;
+}
+
+.p-archive__card-area__card {
+    margin: 20px;
+}
+
+.p-archive__card-area__img {
+    display: block;
+    width: 100%;
+}
+
+.p-archive__card-area__text-wrap {
+    background-color: variables.$color-brown;
+    color: variables.$color-white;
+    height: auto;
+    padding: 17px;
+}
+
+.p-archive__text-area__h2 {
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.p-archive__text-area__h3 {
+    font-size: 16px;
+    padding: 21px 0 7px 0;
+}
+
+.p-archive__text-area__p {
+    font-size: 16px;
+}
+
+.p-archive__text-area__btn {
+    font-size: 16px;
+    background-color: variables.$color-white;
+    color: variables.$color-gray;
+    width: 163px;
+    height: 42px;
+    margin: 30px auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}

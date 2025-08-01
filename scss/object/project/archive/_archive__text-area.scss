@@ -1,0 +1,17 @@
+@use "../../../foundation/variables";
+
+
+.p-archive__text-area {
+    color: variables.$color-brown;
+    margin: 22px;
+}
+
+.p-archive__text-area__title {
+    font-size: 28px;
+    padding-top: 10px;
+}
+
+.p-archive__text-area__text {
+    font-size: 16px;
+    padding: 25px 0;
+}

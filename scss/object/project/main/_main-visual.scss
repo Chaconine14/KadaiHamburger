@@ -1,8 +1,8 @@
-@use "../../foundation/variables";
+@use "../../../foundation/variables";
 
 .p-main-visual {
 
-    background-image: url("../../../img/mainvisual-sp@2x.jpg");
+    background-image: url("../../../../img/mainvisual-sp@2x.jpg");
 
     background-size: cover;
     background-position: center;
@@ -14,7 +14,7 @@
     height: 285px;
 
     @include variables.media-tb {
-        background-image: url("../../../img/mainvisual-tb.jpg");
+        background-image: url("../../../../img/mainvisual-tb.jpg");
         width: 100vw;
     }
 

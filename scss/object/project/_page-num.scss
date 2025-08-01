@@ -1,0 +1,27 @@
+@use "../../foundation/variables";
+
+
+
+.p-page-num {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 127px;
+
+}
+
+
+
+.p-page-num__now-page {
+    display: none;
+}
+
+.p-page-num__text {
+    color: variables.$color-gray;
+    font-size: 16px;
+    margin: 20px;
+}
+
+.p-page-num__ul {
+    display: none;
+}
