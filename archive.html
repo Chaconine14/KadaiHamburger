@@ -78,8 +78,10 @@
 
             <main>
                 <div class="p-archive-visual">
-                    <p class="p-archive-visual__title font-mplus-700">Menu:</p>
-                    <p class="p-archive-visual__text font-mplus-700">チーズバーガー</p>
+                    <div class="p-archive-visual__textwrap">
+                        <p class="p-archive-visual__title font-roboto">Menu:</p>
+                        <p class="p-archive-visual__text font-mplus-700">チーズバーガー</p>
+                    </div>
                 </div>
 
 
@@ -92,7 +94,7 @@
 
                 <article class="p-archive__card-area">
                     <div class="p-archive__card-area__card">
-                        <img src="./img/archive-card-sp.png" class="p-archive__card-area__img" alt="窓辺のハンバーガー">
+                        <div class="p-archive__card-area__img"></div>
                         <div class="p-archive__card-area__text-wrap">
                             <h2 class="font-mplus-700 p-archive__text-area__h2">チーズバーガー</h2>
                             <h3 class="font-mplus-700 p-archive__text-area__h3">小見出しが入ります</h3>
@@ -103,7 +105,7 @@
                     </div>
 
                     <div class="p-archive__card-area__card">
-                        <img src="./img/archive-card-sp.png" class="p-archive__card-area__img" alt="窓辺のハンバーガー">
+                        <div class="p-archive__card-area__img"></div>
                         <div class="p-archive__card-area__text-wrap">
                             <h2 class="font-mplus-700 p-archive__text-area__h2">ダブルチーズバーガー</h2>
                             <h3 class="font-mplus-700 p-archive__text-area__h3">小見出しが入ります</h3>
@@ -114,7 +116,7 @@
                     </div>
 
                     <div class="p-archive__card-area__card">
-                        <img src="./img/archive-card-sp.png" class="p-archive__card-area__img" alt="窓辺のハンバーガー">
+                        <div class="p-archive__card-area__img"></div>
                         <div class="p-archive__card-area__text-wrap">
                             <h2 class="font-mplus-700 p-archive__text-area__h2">スペシャルチーズバーガー</h2>
                             <h3 class="font-mplus-700 p-archive__text-area__h3">小見出しが入ります</h3>
@@ -129,37 +131,35 @@
 
                 <nav class="p-page-num font-roboto">
                     <p class="p-page-num__now-page">page 1/10</p>
-                    <a class="p-page-num__text font-mplus-400" href="#">＜＜前へ</a>
-                    <ul class="p-page-num__ul">
-                        <li>
-                            <a href="#">1</a>
-                        </li>
-                        <li>
-                            <a href="#">2</a>
-                        </li>
-                        <li>
-                            <a href="#">3</a>
-                        </li>
-                        <li>
-                            <a href="#">4</a>
-                        </li>
-                        <li>
-                            <a href="#">5</a>
-                        </li>
-                        <li>
-                            <a href="#">6</a>
-                        </li>
-                        <li>
-                            <a href="#">7</a>
-                        </li>
-                        <li>
-                            <a href="#">8</a>
-                        </li>
-                        <li>
-                            <a href="#">9</a>
-                        </li>
-                    </ul>
-                    <a class="p-page-num__text font-mplus-400" href="#">次へ＞＞</a>
+
+                    <div class="p-page-num__nav">
+                        <button class="c-icon__arrow" href="#">
+                            <span class="c-icon__arrow__right"></span>
+                            <span class="c-icon__arrow__right"></span>
+                        </button>
+                        <a class="p-page-num__text font-mplus-400" href="#">前へ</a>
+                    </div>
+
+                    <div class="p-page-num__btn-wrap">
+                        <button class="p-page-num__btn p-page-num__btn__first" href="#">1</button>
+                        <button class="p-page-num__btn" href="#">2</button>
+                        <button class="p-page-num__btn" href="#">3</button>
+                        <button class="p-page-num__btn" href="#">4</button>
+                        <button class="p-page-num__btn" href="#">5</button>
+                        <button class="p-page-num__btn" href="#">6</button>
+                        <button class="p-page-num__btn" href="#">7</button>
+                        <button class="p-page-num__btn" href="#">8</button>
+                        <button class="p-page-num__btn" href="#">9</button>
+                    </div>
+
+                    <div class="p-page-num__nav">
+                        <a class="p-page-num__text font-mplus-400" href="#">次へ</a>
+
+                        <button class="c-icon__arrow" href="#">
+                            <span class="c-icon__arrow__left"></span>
+                            <span class="c-icon__arrow__left"></span>
+                        </button>
+                    </div>
                 </nav>
             </main>
         </div>

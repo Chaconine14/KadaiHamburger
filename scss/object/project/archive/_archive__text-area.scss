@@ -9,6 +9,11 @@
 .p-archive__text-area__title {
     font-size: 28px;
     padding-top: 10px;
+
+    @include variables.media-tb {
+        font-size: 36px;
+
+    }
 }
 
 .p-archive__text-area__text {

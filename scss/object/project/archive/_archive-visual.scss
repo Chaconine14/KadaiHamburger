@@ -26,7 +26,11 @@
 }
 
 
-
+.p-archive-visual__textwrap {
+    display: flex;
+    align-items: center;
+    padding: 85px;
+}
 
 
 .p-archive-visual::after {
@@ -46,12 +50,11 @@
     left: 37px;
     font-size: 36px;
     color: variables.$color-white;
-    position: absolute;
     z-index: 3;
 
     @include variables.media-tb {
         font-size: 60px;
-        left: 10%;
+        position: static;
 
     }
 
@@ -75,7 +78,8 @@
     z-index: 3;
 
     @include variables.media-tb {
-        left: 10%;
+        position: static;
+        margin: 19px;
 
     }
 
