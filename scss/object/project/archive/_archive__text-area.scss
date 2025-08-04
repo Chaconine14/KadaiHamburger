@@ -4,6 +4,11 @@
 .p-archive__text-area {
     color: variables.$color-brown;
     margin: 22px;
+
+
+    @include variables.media-pc {
+        margin: 60px 100px;
+    }
 }
 
 .p-archive__text-area__title {

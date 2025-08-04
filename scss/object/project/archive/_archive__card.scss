@@ -11,8 +11,13 @@
 
         @include variables.media-tb {
             display: flex;
-            margin: 40px;
+            margin: 20px 40px;
             height: 354px;
+        }
+
+        @include variables.media-pc {
+            margin: 30px 100px;
+            height: auto;
         }
     }
 
@@ -32,8 +37,11 @@
         @include variables.media-tb {
             background-image: url("../../../../img/archive-card-tb.png");
             width: 50%;
-            background-size: contain;
             height: auto;
+        }
+
+        @include variables.media-pc {
+            background-image: url("../../../../img/archive-card-pc.png");
         }
     }
 
@@ -43,10 +51,32 @@
         color: variables.$color-white;
         height: auto;
         padding: 17px;
+        min-height: 355px;
+        line-height: 25px;
+        display: flex;
+        flex-direction: column;
 
         @include variables.media-tb {
-            padding: 30px 50px 0 50px;
+            padding: 30px 35px 0 35px;
             width: 50%;
+            min-height: 355px;
+        }
+
+        @include variables.media-pc {
+            padding: 56px 56px 0 56px;
+            // height: 471px;
+            height: auto;
+            // height: 30vh;
+
+        }
+    }
+
+    &__btn-area {
+        @include variables.media-pc {
+            height: 180px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     }
 }
@@ -57,15 +87,42 @@
         font-size: 20px;
         padding-top: 15px;
 
+
+        margin-top: 0;
+        margin-bottom: 30px;
+
+
+        @include variables.media-pc {
+            font-size: 36px;
+            line-height: normal;
+        }
+
     }
 
     &__h3 {
         font-size: 16px;
         padding: 21px 0 7px 0;
+
+        margin-top: 0;
+        margin-bottom: 20px;
+
+
+
+        @include variables.media-pc {
+            font-size: 24px;
+        }
     }
 
     &__p {
         font-size: 16px;
+
+
+        //----------
+        margin-top: 0;
+        margin-bottom: 0;
+        //----------
+
+
     }
 
     &__btn {
@@ -80,5 +137,15 @@
         justify-content: center;
         align-items: center;
         border-radius: 20px;
+
+        margin-top: auto; // 上にある要素（h2, h3, p）との間を押し広げる
+        margin-bottom: auto; // 下にも自動でスペースを作って、上下中央に寄せる
+
+        @include variables.media-pc {
+            width: 292px;
+            min-height: 76px;
+            border-radius: 50px;
+
+        }
     }
 }

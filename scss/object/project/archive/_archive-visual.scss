@@ -14,13 +14,16 @@
     height: 285px;
 
     @include variables.media-tb {
-        background-image: url("../../../img/takeout_back.png");
+        background-image: url("../../../../img/archive-visual-tb.png");
         width: 100vw;
+        height: 285px;
     }
 
     @include variables.media-pc {
+        background-image: url("../../../../img/archive-visual-pc.png");
+
         width: 100%;
-        height: 530px;
+        height: 239px;
     }
 
 }
@@ -30,6 +33,8 @@
     display: flex;
     align-items: center;
     padding: 85px;
+    height: 100%;
+
 }
 
 
@@ -59,9 +64,7 @@
     }
 
     @include variables.media-pc {
-        font-size: 40px;
-        top: 234px;
-        left: 86px;
+        font-size: 60px;
 
     }
 
@@ -84,9 +87,7 @@
     }
 
     @include variables.media-pc {
-        font-size: 40px;
-        top: 234px;
-        left: 86px;
+        font-size: 16px;
 
     }
 }
