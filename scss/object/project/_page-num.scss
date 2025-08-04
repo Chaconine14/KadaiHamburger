@@ -5,13 +5,14 @@
 .p-page-num {
     display: flex;
     justify-content: space-between;
-    align-items: end;
+    align-items: flex-end;
     height: 127px;
     color: variables.$color-gray;
 
     @include variables.media-tb {
         justify-content: center;
         margin-top: 80px;
+        align-items: center;
     }
 
 
