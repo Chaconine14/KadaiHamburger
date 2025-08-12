@@ -78,6 +78,13 @@
 
 
             <main class="p-main-visual">
+
+                <!-- sp: 〜767px / tb: 768〜1024px / pc: 1025px〜 -->
+                <picture>
+                    <source media="(min-width: 1025px)" srcset="./img/mainvisual-pc.png">
+                    <source media="(min-width: 768px)" srcset="./img/mainvisual-tb.jpg">
+                    <img class="p-main-visual__img" src="./img/mainvisual-sp@2x.jpg" alt="テーブル上のハンバーガーや野菜たち">
+                </picture>
                 <p class="p-main-visual__text font-mplus-700">ダミーサイト</p>
             </main>
 

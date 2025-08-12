@@ -2,19 +2,13 @@
 
 .p-main-visual {
 
-    background-image: url("../../../../img/mainvisual-sp@2x.jpg");
-
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
     position: relative;
     z-index: 1;
     width: 100%;
     height: 285px;
 
+
     @include variables.media-tb {
-        background-image: url("../../../../img/mainvisual-tb.jpg");
         width: 100vw;
     }
 
@@ -23,6 +17,14 @@
         height: 530px;
     }
 
+
+    &__img {
+
+        width: 100%;
+        height: 100%;
+        display: block;
+        object-fit: cover;
+    }
 }
 
 
@@ -32,7 +34,6 @@
     left: 25px;
     font-size: 36px;
     color: variables.$color-white;
-    position: absolute;
     z-index: 2;
 
     @include variables.media-tb {

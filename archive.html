@@ -71,7 +71,7 @@
 
                 <button class="c-menu-btn__sptb">
                     <span class="js-menu-text font-roboto">Menu</span>
-                    <span class="js-icon__close c-icon__close"></span> <!-- 擬似要素でバツを作る -->
+                    <span class="js-icon__close c-icon__close"></span>
                 </button>
 
             </header>
@@ -95,43 +95,61 @@
                 <section class="p-archive__card-area">
 
                     <figure class="p-archive__card-area__card">
-                        <div class="p-archive__card-area__img"></div>
+                        <!-- sp: 〜767px / tb: 768〜1024px / pc: 1025px〜 -->
+                        <picture class="p-archive__card-area__img-wrap">
+                            <source media="(min-width: 1025px)" srcset="./img/archive-card-pc.png">
+                            <source media="(min-width: 768px)" srcset="./img/archive-card-tb.png">
+                            <img class="p-archive__card-area__img" src="./img/archive-card-sp.png" alt="窓辺のハンバーガー">
+                        </picture>
 
 
                         <figcaption class="p-archive__card-area__text-wrap">
                             <h2 class="font-mplus-700 p-archive__text-area__h2">チーズバーガー</h2>
                             <h3 class="font-mplus-700 p-archive__text-area__h3">小見出しが入ります</h3>
                             <p class="font-mplus-400 p-archive__text-area__p">
-                                テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
-                            <div class="p-archive__card-area__btn-area">
-                                <button class="font-mplus-700 p-archive__text-area__btn">詳しく見る</button>
+                                テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                            </p>
+                            <div class="p-archive__text-area__btn-area">
+                                <a class="font-mplus-700 p-archive__text-area__btn" href="#">詳しく見る</a>
                             </div>
 
                         </figcaption>
                     </figure>
 
                     <figure class="p-archive__card-area__card">
-                        <div class="p-archive__card-area__img"></div>
+                        <!-- sp: 〜767px / tb: 768〜1024px / pc: 1025px〜 -->
+                        <picture class="p-archive__card-area__img-wrap">
+                            <source media="(min-width: 1025px)" srcset="./img/archive-card-pc.png">
+                            <source media="(min-width: 768px)" srcset="./img/archive-card-tb.png">
+                            <img class="p-archive__card-area__img" src="./img/archive-card-sp.png" alt="窓辺のハンバーガー">
+                        </picture>
+
                         <figcaption class="p-archive__card-area__text-wrap">
                             <h2 class="font-mplus-700 p-archive__text-area__h2">ダブルチーズバーガー</h2>
                             <h3 class="font-mplus-700 p-archive__text-area__h3">小見出しが入ります</h3>
                             <p class="font-mplus-400 p-archive__text-area__p">
                                 テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
-                            <div class="p-archive__card-area__btn-area">
-                                <button class="font-mplus-700 p-archive__text-area__btn">詳しく見る</button>
+                            <div class="p-archive__text-area__btn-area">
+                                <a class="font-mplus-700 p-archive__text-area__btn" href="#">詳しく見る</a>
                             </div>
                         </figcaption>
                     </figure>
 
                     <figure class="p-archive__card-area__card">
-                        <div class="p-archive__card-area__img"></div>
+                        <!-- sp: 〜767px / tb: 768〜1024px / pc: 1025px〜 -->
+                        <picture class="p-archive__card-area__img-wrap">
+                            <source media="(min-width: 1025px)" srcset="./img/archive-card-pc.png">
+                            <source media="(min-width: 768px)" srcset="./img/archive-card-tb.png">
+                            <img class="p-archive__card-area__img" src="./img/archive-card-sp.png" alt="窓辺のハンバーガー">
+                        </picture>
+
                         <figcaption class="p-archive__card-area__text-wrap">
                             <h2 class="font-mplus-700 p-archive__text-area__h2">スペシャルチーズバーガー</h2>
                             <h3 class="font-mplus-700 p-archive__text-area__h3">小見出しが入ります</h3>
                             <p class="font-mplus-400 p-archive__text-area__p">
                                 テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
-                            <div class="p-archive__card-area__btn-area">
-                                <button class="font-mplus-700 p-archive__text-area__btn">詳しく見る</button>
+                            <div class="p-archive__text-area__btn-area">
+                                <a class="font-mplus-700 p-archive__text-area__btn" href="#">詳しく見る</a>
                             </div>
                         </figcaption>
                     </figure>
@@ -151,15 +169,15 @@
                     </div>
 
                     <div class="p-page-num__btn-wrap">
-                        <button class="p-page-num__btn p-page-num__btn__first">1</button>
-                        <button class="p-page-num__btn">2</button>
-                        <button class="p-page-num__btn">3</button>
-                        <button class="p-page-num__btn">4</button>
-                        <button class="p-page-num__btn">5</button>
-                        <button class="p-page-num__btn">6</button>
-                        <button class="p-page-num__btn">7</button>
-                        <button class="p-page-num__btn">8</button>
-                        <button class="p-page-num__btn">9</button>
+                        <a class="p-page-num__btn p-page-num__btn__first" href="#">1</a>
+                        <a class="p-page-num__btn" href="#">2</a>
+                        <a class="p-page-num__btn" href="#">3</a>
+                        <a class="p-page-num__btn" href="#">4</a>
+                        <a class="p-page-num__btn" href="#">5</a>
+                        <a class="p-page-num__btn" href="#">6</a>
+                        <a class="p-page-num__btn" href="#">7</a>
+                        <a class="p-page-num__btn" href="#">8</a>
+                        <a class="p-page-num__btn" href="#">9</a>
                     </div>
 
                     <div class="p-page-num__nav">
