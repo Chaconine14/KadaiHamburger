@@ -1,0 +1,16 @@
+@use "../../../foundation/variables";
+
+.p-single__cap-area {
+    padding: 10px 20px;
+
+    &__img {
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+
+    &__fig {
+        margin: 30px auto;
+        display: flex;
+    }
+}
