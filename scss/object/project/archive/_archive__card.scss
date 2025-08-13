@@ -20,7 +20,8 @@
 
         @include variables.media-tb {
             display: flex;
-            margin: 20px 40px;
+            padding: 20px 40px;
+            margin: 0;
             width: 100%;
 
         }
@@ -149,6 +150,14 @@
             border-radius: 50px;
 
         }
+
+        &.is-mouseover {
+            background-color: variables.$color-gray;
+            color: variables.$color-white;
+            transition: 0.3s;
+        }
+
+
     }
 
     &__btn-area {

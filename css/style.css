@@ -749,6 +749,10 @@ body.no-scroll {
   background-color: #3C2A10;
   color: #FFF;
 }
+.p-page-num__btn.is-mouseover {
+  background-color: #3C2A10;
+  color: #FFF;
+}
 
 .p-page-num__nav {
   display: flex;
@@ -1195,7 +1199,8 @@ body.no-scroll {
 @media (min-width: 768px) {
   .p-archive__card-area__card {
     display: flex;
-    margin: 20px 40px;
+    padding: 20px 40px;
+    margin: 0;
     width: 100%;
   }
 }
@@ -1302,6 +1307,11 @@ body.no-scroll {
     min-height: 76px;
     border-radius: 50px;
   }
+}
+.p-archive__card-area__btn.is-mouseover {
+  background-color: #707070;
+  color: #FFF;
+  transition: 0.3s;
 }
 .p-archive__card-area__btn-area {
   height: 100px;

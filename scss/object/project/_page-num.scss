@@ -67,6 +67,12 @@
         color: variables.$color-white;
     }
 
+    //ここでホバーした時に色が変わる挙動を書きたい
+    &.is-mouseover {
+        background-color: variables.$color-brown;
+        color: variables.$color-white;
+    }
+
 }
 
 .p-page-num__nav {
