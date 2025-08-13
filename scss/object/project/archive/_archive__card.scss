@@ -21,7 +21,6 @@
         @include variables.media-tb {
             display: flex;
             margin: 20px 40px;
-            align-items: flex-start;
             width: 100%;
 
         }
@@ -40,6 +39,7 @@
         @include variables.media-tb {
             height: auto;
             width: 50%;
+            display: flex;
         }
 
 
@@ -83,14 +83,7 @@
 
         }
     }
-}
 
-
-
-
-
-
-.p-archive__text-area {
 
     &__h2 {
         font-size: 20px;
@@ -165,12 +158,10 @@
         align-items: center;
 
         @include variables.media-tb {
-            height: 100px;
+            height: 100%;
+            min-height: 150px;
         }
 
-        @include variables.media-pc {
-            height: 180px;
 
-        }
     }
 }
