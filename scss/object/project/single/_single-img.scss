@@ -1,0 +1,19 @@
+@use "../../../foundation/variables";
+
+
+.p-single__img-area {
+    padding: 20px;
+
+    &__top {
+        display: block;
+        margin: 0 auto;
+        height: 166px;
+        width: auto;
+    }
+
+    &__img {
+        width: 100%;
+        display: block;
+        margin-top: 30px;
+    }
+}

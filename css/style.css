@@ -1419,7 +1419,31 @@ body.no-scroll {
   width: 100%;
 }
 .p-single__cap-area__fig {
-  margin: 30px auto;
+  padding: 30px 0;
   display: flex;
+  gap: 10px;
+}
+.p-single__cap-area__fig__p {
+  font-size: 16px;
+  color: #3C2A10;
+}
+.p-single__cap-area__fig__img {
+  height: 89px;
+  width: auto;
+}
+
+.p-single__img-area {
+  padding: 20px;
+}
+.p-single__img-area__top {
+  display: block;
+  margin: 0 auto;
+  height: 166px;
+  width: auto;
+}
+.p-single__img-area__img {
+  width: 100%;
+  display: block;
+  margin-top: 30px;
 }
 /*# sourceMappingURL=style.css.map */
