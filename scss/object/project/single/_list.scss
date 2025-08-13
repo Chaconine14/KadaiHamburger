@@ -1,0 +1,26 @@
+@use "../../../foundation/variables";
+
+.p-single__list-area {
+    line-height: 25px;
+
+    &__li {
+        list-style: auto;
+        list-style-position: inside;
+    }
+
+    &__ol-li {
+        list-style: auto;
+        padding-left: 10px;
+        list-style-position: inside;
+    }
+
+
+    &__margin {
+        margin: 20px;
+    }
+
+
+    &__ol {
+        padding-bottom: 30px;
+    }
+}

@@ -1,0 +1,17 @@
+@use "../../../foundation/variables";
+
+.p-single__code-area {
+    padding: 20px;
+
+    &__pre {
+        background: #F5F5F5;
+        padding: 0 50px;
+        line-height: 25px;
+    }
+
+    &__code {
+        font-size: 16px;
+        color: variables.$color-brown;
+
+    }
+}
