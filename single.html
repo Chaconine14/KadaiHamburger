@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="img/favicon.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <title>Hamburger</title>
+</head>
+
+<body>
+    <div class="c-container">
+        <nav class="p-side-menu is-close">
+            <h2 class="p-side-menu__title font-roboto">
+                <a class="p-side-menu__li__menu__a" href="#">Menu</a>
+            </h2>
+
+            <ul class="p-side-menu__li__wrap">
+                <li class="p-side-menu__li font-mplus-700">
+                    <a class="p-side-menu__li__menu__a" href="#">バーガー</a>
+
+                    <ul class="p-side-menu__li__menu font-mplus-400">
+                        <li><a class="p-side-menu__li__menu__a" href="#">ハンバーガー</a></li>
+                        <li><a class="p-side-menu__li__menu__a" href="#">チーズバーガー</a></li>
+                        <li><a class="p-side-menu__li__menu__a" href="#">テリヤキバーガー</a></li>
+                        <li><a class="p-side-menu__li__menu__a" href="#">アボカドバーガー</a></li>
+                        <li><a class="p-side-menu__li__menu__a" href="#">フィッシュバーガー</a></li>
+                        <li><a class="p-side-menu__li__menu__a" href="#">ベーコンバーガー</a></li>
+                        <li><a class="p-side-menu__li__menu__a" href="#">チキンバーガー</a></li>
+                    </ul>
+                </li>
+
+                <li class="p-side-menu__li font-mplus-700">
+                    <a class="p-side-menu__li__menu__a" href="#">サイド</a>
+                    <ul class="p-side-menu__li__menu font-mplus-400">
+                        <li><a class="p-side-menu__li__menu__a" href="#">ポテト</a></li>
+                        <li><a class="p-side-menu__li__menu__a" href="#">サラダ</a></li>
+                        <li><a class="p-side-menu__li__menu__a" href="#">ナゲット</a></li>
+                        <li><a class="p-side-menu__li__menu__a" href="#">コーン</a></li>
+                    </ul>
+                </li>
+
+                <li class="p-side-menu__li font-mplus-700">
+                    <a class="p-side-menu__li__menu__a" href="#">ドリンク</a>
+                    <ul class="p-side-menu__li__menu font-mplus-400">
+                        <li><a class="p-side-menu__li__menu__a" href="#"><a class="p-side-menu__li__menu__a"
+                                    href="#">コーラ</a></li>
+                        <li><a class="p-side-menu__li__menu__a" href="#">ファンタ</a></li>
+                        <li><a class="p-side-menu__li__menu__a" href="#">オレンジ</a></li>
+                        <li><a class="p-side-menu__li__menu__a" href="#">アップル</a></li>
+                        <li><a class="p-side-menu__li__menu__a" href="#">紅茶（Ice/Hot）</a></li>
+                        <li><a class="p-side-menu__li__menu__a" href="#">コーヒー（Ice/Hot）</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </nav>
+
+        <div class="l-main-area">
+            <header class="l-header">
+                <h1 class="p-title font-roboto">Hamburger</h1>
+                <search class="p-search">
+                    <form class="p-search__form" action="#">
+                        <input class="p-search__input" type="search" />
+                        <button class="p-search__btn font-mplus-700" type="submit">検索</button>
+                    </form>
+                </search>
+
+                <button class="c-menu-btn__sptb">
+                    <span class="js-menu-text font-roboto">Menu</span>
+                    <span class="js-icon__close c-icon__close"></span> <!-- 擬似要素でバツを作る -->
+                </button>
+
+            </header>
+
+
+            <main class="p-single-visual">
+
+                <!-- sp: 〜767px / tb: 768〜1024px / pc: 1025px〜 -->
+                <picture>
+                    <!-- <source media="(min-width: 1025px)" srcset=".">
+                    <source media="(min-width: 768px)" srcset="./img/mainvisual-tb.jpg"> -->
+                    <img class="p-single-visual__img" src="./img/single-visual.png" alt="拡大されたチーズバーガー">
+                </picture>
+                <p class="p-single-visual__text font-mplus-700">h1 チーズバーガー</p>
+            </main>
+
+            <h2>見出しh2</h2>
+            <p>Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。
+            </p>
+            <h3>見出しh3</h3>
+            <h4>見出しh4</h4>
+            <h5>見出しh5</h5>
+            <h6>見出しh6</h6>
+
+            <blockquote>Blockquote
+                引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ
+                <p>出典元：
+                    <a href="#">○○○○○○○○○○○○</a>
+                </p>
+            </blockquote>
+
+            <img src="./img/ham-and-potato.png" alt="ハンバーガーとポテトフライ">
+
+
+            <figure>
+                <picture>
+                    <img src="./img/ham-and-potato-small.png" alt="ハンバーガーとポテトフライの小さい画像">
+                </picture>
+                <figcaption>
+                    <p>
+                        テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります
+                    </p>
+                </figcaption>
+            </figure>
+            <figure>
+                <figcaption>
+                    <p>
+                        テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります
+                    </p>
+                </figcaption>
+                <picture>
+                    <img src="./img/ham-and-potato-small.png" alt="ハンバーガーとポテトフライの小さい画像">
+                </picture>
+            </figure>
+
+            <img src="./img/ham-and-potato-small.png" alt="ハンバーガーとポテトフライの小さい画像">
+            <img src="./img/ham-and-potato.png" alt="ハンバーガーとポテトフライ">
+            <img src="./img/ham-and-potato.png" alt="ハンバーガーとポテトフライ">
+            <img src="./img/ham-and-potato.png" alt="ハンバーガーとポテトフライ">
+            <img src="./img/ham-and-potato.png" alt="ハンバーガーとポテトフライ">
+            <img src="./img/ham-and-potato.png" alt="ハンバーガーとポテトフライ">
+            <img src="./img/ham-and-potato.png" alt="ハンバーガーとポテトフライ">
+            <img src="./img/ham-and-potato.png" alt="ハンバーガーとポテトフライ">
+            <img src="./img/ham-and-potato.png" alt="ハンバーガーとポテトフライ">
+            <img src="./img/ham-and-potato.png" alt="ハンバーガーとポテトフライ">
+
+            <ol>
+                <li>リストリストリスト</li>
+                <li>リストリストリスト</li>
+                <li>
+                    <ol>
+                        <!-- padding無くす！あとlist-styleとかも -->
+                        <li>リスト2リスト2リスト2 </li>
+                        <li>リスト2リスト2リスト2</li>
+                    </ol>
+                </li>
+            </ol>
+            <ol>
+                <li>リストリストリスト</li>
+                <li>リストリストリスト</li>
+            </ol>
+
+
+            <ul>
+                <li>リストリストリスト</li>
+                <li>リストリストリスト</li>
+                <li>
+                    <ul>
+                        <li>リスト2リスト2リスト2 </li>
+                        <li>リスト2リスト2リスト2</li>
+                    </ul>
+            </ul>
+            <ul>
+                <li>リストリストリスト</li>
+                <li>リストリストリスト</li>
+            </ul>
+
+
+            <pre>
+                <code>
+                &lt;html&gt;
+                    &lt;head&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                    &lt;/body&gt;
+                &lt;/html&gt;
+                </code>
+            </pre>
+
+            <table>
+                <tbody>
+                    <tr>
+                        <td>テーブル </td>
+                        <td>テーブル </td>
+                    </tr>
+                    <tr>
+                        <td>テーブル </td>
+                        <td>テーブル </td>
+                    </tr>
+                    <tr>
+                        <td>テーブル </td>
+                        <td>テーブル </td>
+                    </tr>
+                    <tr>
+                        <td>テーブル </td>
+                        <td>テーブル </td>
+                    </tr>
+                    <tr>
+                        <td>テーブル </td>
+                        <td>テーブル </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <button>ボタン</button>
+
+            <b>boldboldboldboldboldboldbold</b>
+
+
+        </div>
+    </div>
+
+    <footer class="l-footer">
+        <div class="p-footer-link font-mplus-400">
+            <a href="" class="p-footer-link__text p-footer-link__text__hover">ショップ情報</a>
+            <p class="p-footer-link__text">｜</p>
+            <a href="" class="p-footer-link__text p-footer-link__text__hover">ヒストリー</a>
+        </div>
+        <small class="p-footer__copy font-mplus-400">Copyright: RaiseTech</small>
+    </footer>
+
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
