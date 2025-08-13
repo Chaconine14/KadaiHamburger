@@ -1,0 +1,22 @@
+@use "../../../foundation/variables";
+
+.p-single__btn-area {
+    padding: 30px 20px;
+
+    &__btn {
+        display: block;
+        margin: 0 auto;
+        height: 81px;
+        width: 100%;
+        border: 1px solid variables.$color-gray;
+        border-radius: 20px;
+        color: variables.$color-brown;
+        background: linear-gradient(to bottom, #F2EDE9, #DED8D3);
+    }
+}
+
+
+.p-single__btn-area__btn.is-mouseover {
+    background: variables.$color-gray;
+    transition: 0.3s;
+}

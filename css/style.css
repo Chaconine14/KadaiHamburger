@@ -1500,4 +1500,31 @@ body.no-scroll {
 .p-single__table-area__td-right {
   width: auto;
 }
+
+.p-single__btn-area {
+  padding: 30px 20px;
+}
+.p-single__btn-area__btn {
+  display: block;
+  margin: 0 auto;
+  height: 81px;
+  width: 100%;
+  border: 1px solid #707070;
+  border-radius: 20px;
+  color: #3C2A10;
+  background: linear-gradient(to bottom, #F2EDE9, #DED8D3);
+}
+
+.p-single__btn-area__btn.is-mouseover {
+  background: #707070;
+  transition: 0.3s;
+}
+
+.p-single__b {
+  color: #3C2A10;
+  padding: 20px;
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 70px;
+}
 /*# sourceMappingURL=style.css.map */
