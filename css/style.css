@@ -548,6 +548,12 @@ li {
   }
 }
 
+.p-search__btn:hover {
+  background: #707070;
+  color: #EAEAEA;
+  transition: 0.3s;
+}
+
 .p-search__input {
   border: 1px #707070 solid;
   border-radius: 10px;

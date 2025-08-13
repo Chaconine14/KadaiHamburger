@@ -25,6 +25,14 @@
         max-width: 80px;
     }
 
+
+}
+
+.p-search__btn:hover {
+    background: variables.$color-gray;
+    color: variables.$color-white2;
+    transition: 0.3s;
+
 }
 
 .p-search__input {
