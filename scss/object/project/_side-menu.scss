@@ -76,7 +76,16 @@
         }
     }
 
+    &__menu__a {
+        color: variables.$color-gray;
+    }
+
+    &__menu__a:hover {
+        color: variables.$color-white3;
+    }
+
 }
+
 
 
 .p-side-menu__title {

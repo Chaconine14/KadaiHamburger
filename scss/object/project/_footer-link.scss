@@ -25,6 +25,10 @@
     }
 }
 
+.p-footer-link__text__hover:hover {
+    color: variables.$color-brown;
+}
+
 .p-footer__copy {
     color: variables.$color-white;
     font-size: 14px;

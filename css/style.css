@@ -632,6 +632,12 @@ li {
     margin-top: 32px;
   }
 }
+.p-side-menu__li__menu__a {
+  color: #707070;
+}
+.p-side-menu__li__menu__a:hover {
+  color: #FFFDFA;
+}
 
 .p-side-menu__title {
   display: none;
@@ -680,6 +686,10 @@ body.no-scroll {
   .p-footer-link__text {
     font-size: 20px;
   }
+}
+
+.p-footer-link__text__hover:hover {
+  color: #3C2A10;
 }
 
 .p-footer__copy {
