@@ -9,7 +9,7 @@
     }
 
     @include variables.media-pc {
-        padding: 10px 100px 100px 100px;
+        padding: 10px 100px 60px 100px;
     }
 
     &__table {
@@ -31,6 +31,11 @@
 
         @include variables.media-tb {
             width: 210px;
+
+        }
+
+        @include variables.media-pc {
+            width: 429px;
         }
     }
 

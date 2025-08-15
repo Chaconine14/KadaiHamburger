@@ -9,6 +9,8 @@
 
     @include variables.media-pc {
         padding: 100px;
+        padding-top: 56px;
+        padding-bottom: 50px;
     }
 
     &__pre {

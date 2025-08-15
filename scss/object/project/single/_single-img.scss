@@ -10,6 +10,8 @@
 
     @include variables.media-pc {
         padding: 100px;
+        padding-top: 30px;
+        padding-bottom: 54px;
     }
 
     &__top {
@@ -21,6 +23,10 @@
         @include variables.media-tb {
             height: 358px;
             margin-bottom: 241px;
+        }
+
+        @include variables.media-pc {
+            margin-bottom: 60px;
         }
     }
 
@@ -41,6 +47,11 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 16px;
+        }
+
+        @include variables.media-pc {
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
         }
     }
 }
