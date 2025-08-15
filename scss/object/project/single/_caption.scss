@@ -3,6 +3,10 @@
 .p-single__cap-area {
     padding: 10px 20px;
 
+    @include variables.media-tb {
+        padding: 0 60px;
+    }
+
     &__img {
         display: block;
         height: auto;
@@ -14,6 +18,13 @@
         display: flex;
         gap: 10px;
 
+
+        @include variables.media-tb {
+            padding: 60px 0;
+            gap: 20px;
+        }
+
+
         &__p {
             font-size: 16px;
             color: variables.$color-brown;
@@ -22,6 +33,11 @@
         &__img {
             height: 89px;
             width: auto;
+
+            @include variables.media-tb {
+                height: 189px;
+            }
+
         }
 
     }

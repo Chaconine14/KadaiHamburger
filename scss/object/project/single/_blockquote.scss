@@ -3,6 +3,10 @@
 .p-single__bq-area {
     padding: 20px;
 
+    @include variables.media-tb {
+        padding: 60px;
+    }
+
 
     &__bq {
         background: #F5F5F5;
@@ -11,12 +15,20 @@
         line-height: 25px;
         padding: 30px 20px;
 
+        @include variables.media-tb {
+            padding: 50px;
+        }
+
         &__a {
             text-decoration: underline;
         }
 
         &__p {
             margin-top: 10px;
+
+            @include variables.media-tb {
+                margin-top: 60px;
+            }
         }
     }
 }

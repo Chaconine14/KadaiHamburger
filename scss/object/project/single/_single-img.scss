@@ -4,16 +4,39 @@
 .p-single__img-area {
     padding: 20px;
 
+    @include variables.media-tb {
+        padding: 60px;
+    }
+
     &__top {
         display: block;
         margin: 0 auto;
         height: 166px;
         width: auto;
+
+        @include variables.media-tb {
+            height: 358px;
+            margin-bottom: 241px;
+        }
     }
 
     &__img {
         width: 100%;
         display: block;
         margin-top: 30px;
+
+        @include variables.media-tb {
+
+            margin: 0;
+
+        }
+    }
+
+    &__img-wrap {
+        @include variables.media-tb {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
     }
 }

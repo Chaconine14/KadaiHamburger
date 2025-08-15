@@ -2,36 +2,70 @@
 
 .p-single__h-area {
     padding: 20px;
+    color: variables.$color-brown;
+
+    @include variables.media-tb {
+        padding: 60px;
+    }
 
     &__h2 {
         font-size: 28px;
         padding-top: 14px;
+
+        @include variables.media-tb {
+            font-size: 36px;
+        }
     }
 
     &__p {
         font-size: 16px;
         padding-top: 25px;
         line-height: 25px;
+
+        @include variables.media-tb {
+            padding-top: 55px;
+        }
     }
 
     &__h3 {
         font-size: 24px;
         padding-top: 36px;
+
+        @include variables.media-tb {
+            font-size: 28px;
+            padding-top: 62px;
+
+        }
     }
 
     &__h4 {
         font-size: 20px;
         padding-top: 28px;
+
+        @include variables.media-tb {
+            font-size: 20px;
+            padding-top: 56px;
+        }
     }
 
     &__h5 {
         font-size: 20px;
         padding-top: 34px;
+
+        @include variables.media-tb {
+            font-size: 20px;
+            padding-top: 73px;
+        }
     }
 
     &__h6 {
         font-size: 20px;
         padding-top: 27px;
+
+        @include variables.media-tb {
+            font-size: 20px;
+            padding-top: 57px;
+        }
     }
 
 }

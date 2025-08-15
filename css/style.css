@@ -1348,6 +1348,11 @@ body.no-scroll {
   width: 100%;
   height: 225px;
 }
+@media (min-width: 768px) {
+  .p-single-visual {
+    height: 505px;
+  }
+}
 .p-single-visual__img {
   width: 100%;
   height: 100%;
@@ -1363,38 +1368,90 @@ body.no-scroll {
   color: #FFF;
   z-index: 2;
 }
+@media (min-width: 768px) {
+  .p-single-visual__text {
+    font-size: 60px;
+    top: 215px;
+    left: 86px;
+  }
+}
 
 .p-single__h-area {
   padding: 20px;
+  color: #3C2A10;
+}
+@media (min-width: 768px) {
+  .p-single__h-area {
+    padding: 60px;
+  }
 }
 .p-single__h-area__h2 {
   font-size: 28px;
   padding-top: 14px;
+}
+@media (min-width: 768px) {
+  .p-single__h-area__h2 {
+    font-size: 36px;
+  }
 }
 .p-single__h-area__p {
   font-size: 16px;
   padding-top: 25px;
   line-height: 25px;
 }
+@media (min-width: 768px) {
+  .p-single__h-area__p {
+    padding-top: 55px;
+  }
+}
 .p-single__h-area__h3 {
   font-size: 24px;
   padding-top: 36px;
+}
+@media (min-width: 768px) {
+  .p-single__h-area__h3 {
+    font-size: 28px;
+    padding-top: 62px;
+  }
 }
 .p-single__h-area__h4 {
   font-size: 20px;
   padding-top: 28px;
 }
+@media (min-width: 768px) {
+  .p-single__h-area__h4 {
+    font-size: 20px;
+    padding-top: 56px;
+  }
+}
 .p-single__h-area__h5 {
   font-size: 20px;
   padding-top: 34px;
+}
+@media (min-width: 768px) {
+  .p-single__h-area__h5 {
+    font-size: 20px;
+    padding-top: 73px;
+  }
 }
 .p-single__h-area__h6 {
   font-size: 20px;
   padding-top: 27px;
 }
+@media (min-width: 768px) {
+  .p-single__h-area__h6 {
+    font-size: 20px;
+    padding-top: 57px;
+  }
+}
 
 .p-single__bq-area {
   padding: 20px;
+}
+@media (min-width: 768px) {
+  .p-single__bq-area {
+    padding: 60px;
+  }
 }
 .p-single__bq-area__bq {
   background: #F5F5F5;
@@ -1403,15 +1460,30 @@ body.no-scroll {
   line-height: 25px;
   padding: 30px 20px;
 }
+@media (min-width: 768px) {
+  .p-single__bq-area__bq {
+    padding: 50px;
+  }
+}
 .p-single__bq-area__bq__a {
   text-decoration: underline;
 }
 .p-single__bq-area__bq__p {
   margin-top: 10px;
 }
+@media (min-width: 768px) {
+  .p-single__bq-area__bq__p {
+    margin-top: 60px;
+  }
+}
 
 .p-single__cap-area {
   padding: 10px 20px;
+}
+@media (min-width: 768px) {
+  .p-single__cap-area {
+    padding: 0 60px;
+  }
 }
 .p-single__cap-area__img {
   display: block;
@@ -1423,6 +1495,12 @@ body.no-scroll {
   display: flex;
   gap: 10px;
 }
+@media (min-width: 768px) {
+  .p-single__cap-area__fig {
+    padding: 60px 0;
+    gap: 20px;
+  }
+}
 .p-single__cap-area__fig__p {
   font-size: 16px;
   color: #3C2A10;
@@ -1431,9 +1509,19 @@ body.no-scroll {
   height: 89px;
   width: auto;
 }
+@media (min-width: 768px) {
+  .p-single__cap-area__fig__img {
+    height: 189px;
+  }
+}
 
 .p-single__img-area {
   padding: 20px;
+}
+@media (min-width: 768px) {
+  .p-single__img-area {
+    padding: 60px;
+  }
 }
 .p-single__img-area__top {
   display: block;
@@ -1441,14 +1529,37 @@ body.no-scroll {
   height: 166px;
   width: auto;
 }
+@media (min-width: 768px) {
+  .p-single__img-area__top {
+    height: 358px;
+    margin-bottom: 241px;
+  }
+}
 .p-single__img-area__img {
   width: 100%;
   display: block;
   margin-top: 30px;
 }
+@media (min-width: 768px) {
+  .p-single__img-area__img {
+    margin: 0;
+  }
+}
+@media (min-width: 768px) {
+  .p-single__img-area__img-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+}
 
 .p-single__list-area {
   line-height: 25px;
+}
+@media (min-width: 768px) {
+  .p-single__list-area {
+    padding-left: 110px;
+  }
 }
 .p-single__list-area__li {
   list-style: auto;
@@ -1459,8 +1570,27 @@ body.no-scroll {
   padding-left: 10px;
   list-style-position: inside;
 }
-.p-single__list-area__margin {
+@media (min-width: 768px) {
+  .p-single__list-area__ol-li {
+    padding-left: 25px;
+  }
+}
+.p-single__list-area__ul-li {
+  padding-left: 10px;
+}
+@media (min-width: 768px) {
+  .p-single__list-area__ul-li {
+    padding-left: 25px;
+  }
+}
+.p-single__list-area__wrap {
   margin: 20px;
+}
+@media (min-width: 768px) {
+  .p-single__list-area__wrap {
+    margin: 0;
+    padding-bottom: 17px;
+  }
 }
 .p-single__list-area__ol {
   padding-bottom: 30px;
