@@ -1353,6 +1353,11 @@ body.no-scroll {
     height: 505px;
   }
 }
+@media (min-width: 1025px) {
+  .p-single-visual {
+    height: 500px;
+  }
+}
 .p-single-visual__img {
   width: 100%;
   height: 100%;
@@ -1383,6 +1388,11 @@ body.no-scroll {
 @media (min-width: 768px) {
   .p-single__h-area {
     padding: 60px;
+  }
+}
+@media (min-width: 1025px) {
+  .p-single__h-area {
+    padding: 100px;
   }
 }
 .p-single__h-area__h2 {
@@ -1453,6 +1463,11 @@ body.no-scroll {
     padding: 60px;
   }
 }
+@media (min-width: 1025px) {
+  .p-single__bq-area {
+    padding: 100px;
+  }
+}
 .p-single__bq-area__bq {
   background: #F5F5F5;
   color: #3C2A10;
@@ -1485,6 +1500,11 @@ body.no-scroll {
     padding: 0 60px;
   }
 }
+@media (min-width: 1025px) {
+  .p-single__cap-area {
+    padding: 0 100px;
+  }
+}
 .p-single__cap-area__img {
   display: block;
   height: auto;
@@ -1499,6 +1519,11 @@ body.no-scroll {
   .p-single__cap-area__fig {
     padding: 60px 0;
     gap: 20px;
+  }
+}
+@media (min-width: 1025px) {
+  .p-single__cap-area__fig {
+    padding: 100px 0;
   }
 }
 .p-single__cap-area__fig__p {
@@ -1521,6 +1546,11 @@ body.no-scroll {
 @media (min-width: 768px) {
   .p-single__img-area {
     padding: 60px;
+  }
+}
+@media (min-width: 1025px) {
+  .p-single__img-area {
+    padding: 100px;
   }
 }
 .p-single__img-area__top {
@@ -1604,6 +1634,11 @@ body.no-scroll {
     padding: 60px;
   }
 }
+@media (min-width: 1025px) {
+  .p-single__code-area {
+    padding: 100px;
+  }
+}
 .p-single__code-area__pre {
   background: #F5F5F5;
   padding: 0 50px;
@@ -1620,6 +1655,11 @@ body.no-scroll {
 @media (min-width: 768px) {
   .p-single__table-area {
     padding: 10px 60px 60px 60px;
+  }
+}
+@media (min-width: 1025px) {
+  .p-single__table-area {
+    padding: 10px 100px 100px 100px;
   }
 }
 .p-single__table-area__table {
@@ -1652,6 +1692,11 @@ body.no-scroll {
 @media (min-width: 768px) {
   .p-single__btn-area {
     padding: 0px 60px;
+  }
+}
+@media (min-width: 1025px) {
+  .p-single__btn-area {
+    padding: 0px 100px;
   }
 }
 .p-single__btn-area__btn {
@@ -1687,6 +1732,11 @@ body.no-scroll {
 @media (min-width: 768px) {
   .p-single__b {
     padding: 60px;
+  }
+}
+@media (min-width: 1025px) {
+  .p-single__b {
+    padding: 100px;
   }
 }
 /*# sourceMappingURL=style.css.map */

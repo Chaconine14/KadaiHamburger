@@ -4,8 +4,11 @@
     padding: 30px 20px;
 
     @include variables.media-tb {
-
         padding: 0px 60px;
+    }
+
+    @include variables.media-pc {
+        padding: 0px 100px;
     }
 
 

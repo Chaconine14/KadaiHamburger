@@ -8,6 +8,9 @@
         padding: 10px 60px 60px 60px;
     }
 
+    @include variables.media-pc {
+        padding: 10px 100px 100px 100px;
+    }
 
     &__table {
         border-collapse: collapse;

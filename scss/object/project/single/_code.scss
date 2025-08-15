@@ -7,6 +7,10 @@
         padding: 60px;
     }
 
+    @include variables.media-pc {
+        padding: 100px;
+    }
+
     &__pre {
         background: #F5F5F5;
         padding: 0 50px;

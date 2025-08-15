@@ -8,6 +8,10 @@
         padding: 60px;
     }
 
+    @include variables.media-pc {
+        padding: 100px;
+    }
+
     &__h2 {
         font-size: 28px;
         padding-top: 14px;

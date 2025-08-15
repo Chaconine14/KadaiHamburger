@@ -8,6 +8,10 @@
         padding: 60px;
     }
 
+    @include variables.media-pc {
+        padding: 100px;
+    }
+
     &__top {
         display: block;
         margin: 0 auto;

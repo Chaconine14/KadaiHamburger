@@ -10,4 +10,8 @@
     @include variables.media-tb {
         padding: 60px;
     }
+
+    @include variables.media-pc {
+        padding: 100px;
+    }
 }

@@ -7,6 +7,10 @@
         padding: 0 60px;
     }
 
+    @include variables.media-pc {
+        padding: 0 100px;
+    }
+
     &__img {
         display: block;
         height: auto;
@@ -22,6 +26,11 @@
         @include variables.media-tb {
             padding: 60px 0;
             gap: 20px;
+        }
+
+        @include variables.media-pc {
+            padding: 100px 0;
+
         }
 
 
