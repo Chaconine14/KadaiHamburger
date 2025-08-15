@@ -4,6 +4,10 @@
 .p-single__table-area {
     padding: 10px 20px 20px 20px;
 
+    @include variables.media-tb {
+        padding: 10px 60px 60px 60px;
+    }
+
 
     &__table {
         border-collapse: collapse;
@@ -22,6 +26,9 @@
     &__td-left {
         width: 140px;
 
+        @include variables.media-tb {
+            width: 210px;
+        }
     }
 
     &__td-right {

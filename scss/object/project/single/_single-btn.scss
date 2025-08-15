@@ -3,6 +3,12 @@
 .p-single__btn-area {
     padding: 30px 20px;
 
+    @include variables.media-tb {
+
+        padding: 0px 60px;
+    }
+
+
     &__btn {
         display: block;
         margin: 0 auto;
@@ -12,6 +18,13 @@
         border-radius: 20px;
         color: variables.$color-brown;
         background: linear-gradient(to bottom, #F2EDE9, #DED8D3);
+
+
+        @include variables.media-tb {
+            margin: 0;
+            height: 104px;
+            width: 429px;
+        }
     }
 }
 

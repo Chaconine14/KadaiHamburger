@@ -6,4 +6,8 @@
     display: inline-block;
     margin-top: 0;
     margin-bottom: 70px;
+
+    @include variables.media-tb {
+        padding: 60px;
+    }
 }

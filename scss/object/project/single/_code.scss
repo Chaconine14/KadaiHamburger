@@ -3,6 +3,10 @@
 .p-single__code-area {
     padding: 20px;
 
+    @include variables.media-tb {
+        padding: 60px;
+    }
+
     &__pre {
         background: #F5F5F5;
         padding: 0 50px;
